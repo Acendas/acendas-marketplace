@@ -1,0 +1,119 @@
+{
+  "name": "acendas",
+  "owner": {
+    "name": "Acendas",
+    "email": "info@acendas.ca"
+  },
+  "metadata": {
+    "description": "Developer productivity plugins by Acendas — agile project management, spec-driven development, sprint automation, and comprehensive Atlassian Cloud integration for Claude Code.",
+    "version": "1.0.0"
+  },
+  "plugins": [
+    {
+      "name": "shipyard",
+      "source": {
+        "source": "git-subdir",
+        "url": "https://github.com/Acendas/shipyard.git",
+        "path": "plugins/shipyard",
+        "ref": "main"
+      },
+      "description": "Turn your idea into working code — Shipyard runs Claude Code through a spec-driven agile sprint lifecycle: discuss features, plan sprints, build with TDD, review, and ship.",
+      "version": "1.11.0",
+      "author": {
+        "name": "Acendas",
+        "email": "info@acendas.ca"
+      },
+      "homepage": "https://github.com/Acendas/shipyard",
+      "repository": "https://github.com/Acendas/shipyard",
+      "license": "MIT",
+      "category": "development",
+      "keywords": [
+        "agile",
+        "sprint",
+        "tdd",
+        "project-management",
+        "scrum",
+        "backlog",
+        "retro",
+        "spec",
+        "feature",
+        "review",
+        "release",
+        "kanban",
+        "workflow",
+        "automation",
+        "test-driven-development"
+      ],
+      "tags": [
+        "agile",
+        "sprint-planning",
+        "tdd",
+        "project-management",
+        "spec-driven",
+        "code-review",
+        "backlog-grooming",
+        "feature-specs",
+        "release-management",
+        "debugging",
+        "retro",
+        "workflow-automation"
+      ]
+    },
+    {
+      "name": "atlassian-suite",
+      "source": {
+        "source": "github",
+        "repo": "Acendas/atlassian-suite",
+        "ref": "main"
+      },
+      "description": "Unified Jira Cloud + Confluence Cloud + Bitbucket Cloud integration for Claude Code. 190 MCP tools, 31 workflow skills, and 21 agents including a 12-scanner PR review pipeline (bugs, security, silent-failures, patterns, tests, spec, contracts, database, performance, observability, rollout, financial) with adversarial critic and deep-dive investigator.",
+      "version": "0.1.0",
+      "author": {
+        "name": "Acendas",
+        "email": "info@acendas.ca"
+      },
+      "homepage": "https://github.com/Acendas/atlassian-suite",
+      "repository": "https://github.com/Acendas/atlassian-suite",
+      "license": "MIT",
+      "category": "integration",
+      "keywords": [
+        "atlassian",
+        "jira",
+        "confluence",
+        "bitbucket",
+        "code-review",
+        "pr-review",
+        "pull-request",
+        "sprint",
+        "release-notes",
+        "mcp",
+        "workflow",
+        "automation",
+        "agile",
+        "devops"
+      ],
+      "tags": [
+        "atlassian-cloud",
+        "jira-cloud",
+        "confluence-cloud",
+        "bitbucket-cloud",
+        "pr-review",
+        "multi-scanner-review",
+        "code-review-pipeline",
+        "financial-app-review",
+        "sprint-management",
+        "release-notes",
+        "release-management",
+        "triage",
+        "knowledge-base",
+        "pipelines",
+        "deployments",
+        "branch-protection",
+        "mcp-server",
+        "fastmcp",
+        "adf",
+        "workflow-automation"
+      ]
+    }
+  ]
+}

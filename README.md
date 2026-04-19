@@ -7,7 +7,7 @@ A Claude Code plugin marketplace by [Acendas](https://acendas.ca). Curated devel
 | Plugin | Version | What it does |
 |---|---|---|
 | [`shipyard`](https://github.com/Acendas/shipyard) | 1.11.0 | Spec-driven agile sprint lifecycle for Claude Code — discuss features, plan sprints, build with TDD, review, and ship. |
-| [`atlassian-suite`](https://github.com/Acendas/atlassian-suite) | 0.2.0 | Unified Jira Cloud + Confluence Cloud + Bitbucket Cloud integration. 190 MCP tools, 31 workflow skills, 21 agents including a 12-scanner PR review pipeline with adversarial critic. |
+| [`atlassian-suite`](https://github.com/Acendas/atlassian-suite) | 0.2.1 | Unified Jira Cloud + Confluence Cloud + Bitbucket Cloud integration. 190 MCP tools, 31 workflow skills, 21 agents including a 12-scanner PR review pipeline with adversarial critic. |
 
 ## Install
 

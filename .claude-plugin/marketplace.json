@@ -15,7 +15,7 @@
         "source": "git-subdir",
         "url": "https://github.com/Acendas/shipyard.git",
         "path": "plugins/shipyard",
-        "ref": "main"
+        "ref": "v1.11.0"
       },
       "description": "Turn your idea into working code — Shipyard runs Claude Code through a spec-driven agile sprint lifecycle: discuss features, plan sprints, build with TDD, review, and ship.",
       "version": "1.11.0",
@@ -64,7 +64,7 @@
       "source": {
         "source": "github",
         "repo": "Acendas/atlassian-suite",
-        "ref": "main"
+        "ref": "v0.2.1"
       },
       "description": "Unified Jira Cloud + Confluence Cloud + Bitbucket Cloud integration for Claude Code. 190 MCP tools, 31 workflow skills, and 21 agents including a 12-scanner PR review pipeline (bugs, security, silent-failures, patterns, tests, spec, contracts, database, performance, observability, rollout, financial) with adversarial critic and deep-dive investigator. Credentials stored in ~/.acendas-atlassian/config.json with atomic-write + rolling backup.",
       "version": "0.2.1",

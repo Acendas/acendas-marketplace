@@ -6,7 +6,7 @@
   },
   "metadata": {
     "description": "Developer productivity plugins by Acendas — agile project management, spec-driven development, sprint automation, and comprehensive Atlassian Cloud integration for Claude Code.",
-    "version": "1.0.4"
+    "version": "1.0.5"
   },
   "plugins": [
     {
@@ -15,10 +15,10 @@
         "source": "git-subdir",
         "url": "https://github.com/Acendas/shipyard.git",
         "path": "plugins/shipyard",
-        "ref": "v1.11.0"
+        "ref": "v1.12.0"
       },
       "description": "Turn your idea into working code — Shipyard runs Claude Code through a spec-driven agile sprint lifecycle: discuss features, plan sprints, build with TDD, review, and ship.",
-      "version": "1.11.0",
+      "version": "1.12.0",
       "author": {
         "name": "Acendas",
         "email": "info@acendas.ca"

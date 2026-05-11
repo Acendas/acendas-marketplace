@@ -6,7 +6,7 @@
   },
   "metadata": {
     "description": "Developer productivity plugins by Acendas — agile project management, spec-driven development, sprint automation, comprehensive Atlassian Cloud integration, and AI-driven Android debugging for Claude Code.",
-    "version": "1.3.0"
+    "version": "1.4.0"
   },
   "plugins": [
     {
@@ -120,10 +120,10 @@
       "source": {
         "source": "github",
         "repo": "Acendas/android-debugger",
-        "ref": "v1.2.4"
+        "ref": "v1.3.0"
       },
-      "description": "Drive an Android Java/Kotlin debugging session from Claude Code. JDI/JDWP-backed Kotlin MCP server attaches to debuggable APKs via adb forward; exposes line/conditional/hit-count/logpoint/exception/method/field breakpoints, step over/into/out + step_until_method_change, frame snapshots with bundled locals + watches, expression evaluation with server-side mutation refusal, object/array drill-downs, exception_summary + render_capabilities helpers, logcat tail, heap dump, capability probe, 10 workflow skills (:setup, :attach, :detach, :status, :explain, :catch, :trace, :walk, :bisect-flaky, :investigate), and the autonomous android-debug-orchestrator agent for end-to-end investigation. Skills back canonical references for anti-hallucination, framework-frame collapse, four-shape triage, reactive-codepath strategy, exception FQN resolution, and flake-trigger heuristics — single source of truth shared across skills. Cross-platform (macOS, Linux, Windows). Read-heavy by design; explain-first, fix-second.",
-      "version": "1.2.4",
+      "description": "AI-agent-driven Android debugger for Claude Code. JDI/JDWP-backed Kotlin MCP server attaches to debuggable APKs via adb forward; exposes line/conditional/hit-count/logpoint/exception/method/field/class-load breakpoints, step over/into/out + step_until_method_change, frame snapshots with bundled locals + watches, DMN-FEEL expression evaluation (kfeel-backed) with pure side-effect-refusing grammar, eval_method for explicit JDI method invocation with mutation refusal, persistent breakpoint+watch state across detach, object/array drill-downs, exception_summary + render_capabilities helpers, logcat tail, heap dump, capability probe, 10 workflow skills (:setup, :attach, :detach, :status, :explain, :catch, :trace, :walk, :bisect-flaky, :investigate), and the autonomous android-debug-orchestrator agent for end-to-end investigation. Skills back canonical references for anti-hallucination, framework-frame collapse, four-shape triage, reactive-codepath strategy, exception FQN resolution, and flake-trigger heuristics — single source of truth shared across skills. Designed for AI agents, not humans — every tool surface optimizes for agent legibility. Cross-platform (macOS, Linux, Windows). Read-heavy by design; explain-first, fix-second.",
+      "version": "1.3.0",
       "author": {
         "name": "Acendas",
         "email": "info@acendas.ca"
@@ -161,9 +161,13 @@
         "tracepoints",
         "exception-breakpoints",
         "field-watchpoints",
+        "class-load-breakpoints",
         "step-debugging",
         "frame-snapshot",
         "expression-evaluation",
+        "feel-expressions",
+        "kfeel",
+        "session-persistence",
         "logcat",
         "heap-dump",
         "view-hierarchy",

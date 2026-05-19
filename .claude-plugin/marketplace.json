@@ -6,7 +6,7 @@
   },
   "metadata": {
     "description": "Developer productivity plugins by Acendas — agile project management, spec-driven development, sprint automation, comprehensive Atlassian Cloud integration, and AI-driven Android debugging for Claude Code.",
-    "version": "1.7.0"
+    "version": "1.8.0"
   },
   "plugins": [
     {
@@ -64,10 +64,10 @@
       "source": {
         "source": "github",
         "repo": "Acendas/atlassian-suite",
-        "ref": "v0.4.3"
+        "ref": "v0.5.0"
       },
       "description": "Unified Jira Cloud + Confluence Cloud + Bitbucket Cloud integration for Claude Code. Jira (issues, sprints, search, attachments, remote links), Confluence (pages, comments, attachments, backlinks, page properties), Bitbucket (PRs, tasks, source browse + blame, pipelines, deployments, branch restrictions), plus a 12-scanner PR review pipeline (bugs, security, silent-failures, patterns, tests, spec, contracts, database, performance, observability, rollout, financial) with adversarial critic and deep-dive investigator. Credentials stored in ~/.acendas-atlassian/config.json with atomic-write + rolling backup. Rate-limit handling with Retry-After + exponential backoff.",
-      "version": "0.4.3",
+      "version": "0.5.0",
       "author": {
         "name": "Acendas",
         "email": "info@acendas.ca"
@@ -120,10 +120,10 @@
       "source": {
         "source": "github",
         "repo": "Acendas/android-debugger",
-        "ref": "v1.6.2"
+        "ref": "v2.0.0"
       },
-      "description": "AI-agent-driven Android debugger for Claude Code. Kotlin MCP server attaches to debuggable APKs via adb forward (JDI/JDWP) and loads a C++ JVMTI agent (~250–650 KB per ABI; arm64-v8a + x86_64 + armeabi-v7a) for native-speed mutation + tracing. Exposes 13 workflow skills (attach, catch, trace, walk, bisect-flaky, explain, status, setup, detach, investigate, patch, patch-revert, patch-status) plus the autonomous android-debug-orchestrator agent for end-to-end investigation. v1.5 adds HotSwap method-body redefinition (hot_swap_class + hot_swap_classes batch + hot_swap_revert with d8 dexing and ASM shape-pre-validate). v1.6 adds native-speed heap walks (count_instances / iterate_heap_by_class / find_referrers / find_referrer_chain auto-routing through JVMTI), line-rate method tracing (start_method_trace with class/method/regex filters + leaky-bucket throttling + arg + return-value capture), and class-allowlisted allocation tracing. Line/conditional/hit-count/logpoint/exception/method/field/class-load breakpoints, step over/into/out + step_until_method_change, frame snapshots with bundled locals + watches, DMN-FEEL expression evaluation (kfeel) with side-effect-refusing grammar, eval_method with mutation refusal, persistent breakpoint+watch state across detach, logcat tail, heap dump, capability probe. Designed for AI agents — every tool surface optimizes for agent legibility. Cross-platform (macOS, Linux, Windows). Read-heavy by design; explain-first, fix-second.",
-      "version": "1.6.2",
+      "description": "AI-agent-driven Android debugger for Claude Code. Kotlin MCP server attaches to debuggable APKs via adb forward (JDI/JDWP) and loads a C++ JVMTI agent (~250–650 KB per ABI; arm64-v8a + x86_64 + armeabi-v7a) for native-speed mutation + tracing. Exposes 13 workflow skills (ad-attach, ad-catch, ad-trace, ad-walk, ad-bisect-flaky, ad-explain, ad-status, ad-setup, ad-detach, ad-investigate, ad-patch, ad-patch-revert, ad-patch-status) plus the autonomous android-debug-orchestrator agent for end-to-end investigation. v1.5 adds HotSwap method-body redefinition (hot_swap_class + hot_swap_classes batch + hot_swap_revert with d8 dexing and ASM shape-pre-validate). v1.6 adds native-speed heap walks (count_instances / iterate_heap_by_class / find_referrers / find_referrer_chain auto-routing through JVMTI), line-rate method tracing (start_method_trace with class/method/regex filters + leaky-bucket throttling + arg + return-value capture), and class-allowlisted allocation tracing. Line/conditional/hit-count/logpoint/exception/method/field/class-load breakpoints, step over/into/out + step_until_method_change, frame snapshots with bundled locals + watches, DMN-FEEL expression evaluation (kfeel) with side-effect-refusing grammar, eval_method with mutation refusal, persistent breakpoint+watch state across detach, logcat tail, heap dump, capability probe. Designed for AI agents — every tool surface optimizes for agent legibility. Cross-platform (macOS, Linux, Windows). Read-heavy by design; explain-first, fix-second.",
+      "version": "2.0.0",
       "author": {
         "name": "Acendas",
         "email": "info@acendas.ca"

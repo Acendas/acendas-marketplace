@@ -6,7 +6,7 @@
   },
   "metadata": {
     "description": "Developer productivity plugins by Acendas — agile project management, spec-driven development, sprint automation, comprehensive Atlassian Cloud integration, and AI-driven Android debugging for Claude Code.",
-    "version": "1.10.8"
+    "version": "1.10.9"
   },
   "plugins": [
     {
@@ -64,10 +64,10 @@
       "source": {
         "source": "github",
         "repo": "Acendas/atlassian-suite",
-        "ref": "v0.5.1"
+        "ref": "v0.6.0"
       },
-      "description": "Unified Jira Cloud + Confluence Cloud + Bitbucket Cloud integration for Claude Code. Jira (issues, sprints, search, attachments, remote links), Confluence (pages, comments, attachments, backlinks, page properties), Bitbucket (PRs, tasks, source browse + blame, pipelines, deployments, branch restrictions), plus a 12-scanner PR review pipeline (bugs, security, silent-failures, patterns, tests, spec, contracts, database, performance, observability, rollout, financial) with adversarial critic and deep-dive investigator. Credentials stored in ~/.acendas-atlassian/config.json with atomic-write + rolling backup. Rate-limit handling with Retry-After + exponential backoff.",
-      "version": "0.5.1",
+      "description": "Unified Jira Cloud + Confluence Cloud + Bitbucket Cloud + QMetry Test Management integration for Claude Code. Jira (issues, sprints, search, attachments, remote links), Confluence (pages, comments, attachments, backlinks, page properties), Bitbucket (PRs, tasks, source browse + blame, pipelines, deployments, branch restrictions), QMetry (projects, test cases, test cycles, test plans, execution results), plus a 12-scanner PR review pipeline with adversarial critic and deep-dive investigator. Credentials stored in ~/.acendas-atlassian/config.json with atomic-write + rolling backup.",
+      "version": "0.6.0",
       "author": {
         "name": "Acendas",
         "email": "info@acendas.ca"
@@ -81,6 +81,8 @@
         "jira",
         "confluence",
         "bitbucket",
+        "qmetry",
+        "test-management",
         "code-review",
         "pr-review",
         "pull-request",
@@ -97,6 +99,11 @@
         "jira-cloud",
         "confluence-cloud",
         "bitbucket-cloud",
+        "qmetry",
+        "test-management",
+        "test-cases",
+        "test-cycles",
+        "test-plans",
         "pr-review",
         "multi-scanner-review",
         "code-review-pipeline",

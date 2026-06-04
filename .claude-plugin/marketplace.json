@@ -6,7 +6,7 @@
   },
   "metadata": {
     "description": "Developer productivity plugins by Acendas — agile project management, spec-driven development, sprint automation, comprehensive Atlassian Cloud integration, and AI-driven Android debugging for Claude Code.",
-    "version": "1.10.17"
+    "version": "1.10.18"
   },
   "plugins": [
     {
@@ -64,10 +64,10 @@
       "source": {
         "source": "github",
         "repo": "Acendas/atlassian-suite",
-        "ref": "v0.6.8"
+        "ref": "v0.6.9"
       },
       "description": "Unified Jira Cloud + Confluence Cloud + Bitbucket Cloud + QMetry Test Management integration for Claude Code. Jira (issues, sprints, search, attachments, remote links), Confluence (pages, comments, attachments, backlinks, page properties), Bitbucket (PRs, tasks, source browse + blame, pipelines, deployments, branch restrictions), QMetry (projects, test cases, test cycles, test plans, execution results), plus a 12-scanner PR review pipeline with adversarial critic and deep-dive investigator. Credentials stored in ~/.acendas-atlassian/config.json with atomic-write + rolling backup.",
-      "version": "0.6.8",
+      "version": "0.6.9",
       "author": {
         "name": "Acendas",
         "email": "info@acendas.ca"

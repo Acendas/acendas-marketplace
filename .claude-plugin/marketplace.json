@@ -6,7 +6,7 @@
   },
   "metadata": {
     "description": "Developer productivity plugins by Acendas \u2014 agile project management, spec-driven development, sprint automation, comprehensive Atlassian Cloud integration, and AI-driven Android debugging for Claude Code.",
-    "version": "1.23.0"
+    "version": "1.24.0"
   },
   "plugins": [
     {
@@ -127,10 +127,10 @@
       "source": {
         "source": "github",
         "repo": "Acendas/android-debugger",
-        "ref": "v2.2.1"
+        "ref": "v2.2.2"
       },
-      "description": "AI-agent-driven Android debugger for Claude Code. Kotlin MCP server attaches to debuggable APKs via adb forward (JDI/JDWP) and loads a C++ JVMTI agent (~250\u2013650 KB per ABI; arm64-v8a + x86_64 + armeabi-v7a) for native-speed mutation + tracing. Exposes 14 workflow skills (ad-attach, ad-catch, ad-trace, ad-walk, ad-bisect-flaky, ad-explain, ad-status, ad-setup, ad-detach, ad-investigate, ad-patch, ad-patch-revert, ad-patch-status, ad-graph) plus the autonomous android-debug-orchestrator agent for end-to-end investigation. v1.8 adds standalone, attach-free static analysis backed by SootUp 2.0.0: static_class_hierarchy / static_call_graph / static_cfg / static_package_graph return agent-facing nodes/edges/truncated/warnings plus ASCII and Mermaid renderings, with BFS depth/node-cap bounds, virtual-dispatch-target capping, and Kotlin-synthetic collapse (companions, lambdas, DefaultImpls, coroutine continuations). The new ad-graph skill resolves class_dirs across Gradle modules and android_api_level, with a confirm-then-write Mermaid-persistence flow \u2014 routed as a 'Zeroth check' for pure structural questions ('what implements X', 'call graph of Y', 'class hierarchy of Z') ahead of the Debug-Plan shapes, and available mid-plan as a read-only side-query. v1.7 shipped Debug Plans (LLM-as-author, not LLM-in-the-loop): the orchestrator authors a plan declaring setup breakpoints, on_event handler chains with actions, hypotheses graded matched/contradicted/inconclusive, and a streaming plan_progress event feed; the server runs it deterministically over the JDI event stream with no LLM in the loop, compressing investigations from ~20 LLM round-trips to ~3. New MCP tools: run_debug_plan, pause_plan, abort_plan, validate_plan, list/save/load/delete_plan. New dbg.* FEEL namespace. Hybrid concurrency: read-only inspection passes through during a plan; mutating tools return vm_in_plan. v1.7.1 hardens against eight hang surfaces (tool wall-clock budget, attach socket force-close, plan timeout cap, stuck-watchdog, abort_plan 3-stage force-kill, async launch, wait_for_event clamp, proactive vm_disconnected probe). v1.7.2 adds setup-install diagnostics (resolved_count + deferred_count + deferred_targets) so deferred BPs (armed via ClassPrepareRequest) are no longer confused with failed installs. v1.5 HotSwap; v1.6 JVMTI deepening (native-speed heap walks, line-rate method tracing with arg + return-value capture, class-allowlisted allocation tracing). Line/conditional/hit-count/logpoint/exception/method/field/class-load breakpoints, step over/into/out, frame snapshots, DMN-FEEL expression evaluation (kfeel) with side-effect-refusing grammar, eval_method with mutation refusal, persistent breakpoint+watch state, logcat tail, heap dump, capability probe. Designed for AI agents \u2014 every tool surface optimizes for agent legibility. Cross-platform (macOS, Linux, Windows). Read-heavy by design; explain-first, fix-second.",
-      "version": "2.2.1",
+      "description": "Android debugging plugin for Claude Code. Connects to debuggable APKs through ADB, JDI/JDWP, and a JVMTI agent, with MCP tools and workflow skills for breakpoints, stepping, logcat, heap inspection, method and allocation tracing, HotSwap, static class/call/package graphs, debug plans, flaky-test bisection, and guided patch/revert flows. Designed for agent-readable results and cross-platform use on macOS, Linux, and Windows.",
+      "version": "2.2.2",
       "author": {
         "name": "Acendas",
         "email": "info@acendas.ca"

@@ -15,10 +15,10 @@
         "source": "git-subdir",
         "url": "https://github.com/Acendas/shipyard.git",
         "path": "plugins/shipyard",
-        "ref": "v3.22.0"
+        "ref": "v3.22.1"
       },
       "description": "Turn your idea into working code \u2014 Shipyard runs Claude Code through a spec-driven agile sprint lifecycle: discuss features, plan sprints, build with TDD, review, and ship.",
-      "version": "3.22.0",
+      "version": "3.22.1",
       "author": {
         "name": "Acendas",
         "email": "info@acendas.ca"

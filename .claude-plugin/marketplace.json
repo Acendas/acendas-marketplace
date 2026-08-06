@@ -6,7 +6,7 @@
   },
   "metadata": {
     "description": "Developer productivity plugins by Acendas \u2014 agile project management, spec-driven development, sprint automation, comprehensive Atlassian Cloud integration, and AI-driven Android debugging for Claude Code.",
-    "version": "1.28.0"
+    "version": "1.29.0"
   },
   "plugins": [
     {
@@ -64,10 +64,10 @@
       "source": {
         "source": "github",
         "repo": "Acendas/atlassian-suite",
-        "ref": "v0.9.3"
+        "ref": "v0.9.4"
       },
       "description": "Unified Jira Cloud + Confluence Cloud + Bitbucket Cloud + QMetry Test Management integration for Claude Code. Jira (issues, sprints, search, attachments, remote links), Confluence (pages, comments, attachments, backlinks, page properties), Bitbucket (PRs, tasks, source browse + blame, pipelines, deployments, branch restrictions), QMetry (projects, full test-case/cycle/step CRUD, test plans, execution results, execution update with status/comment/assignee + execution-level attachment, requirement traceability), plus a 12-scanner PR review pipeline with adversarial critic and deep-dive investigator. Safe docs->Confluence publishing (confluence_publish_preflight / publish_page / markdown_to_storage / render_mermaid / sync_attachments): renders ```mermaid fences to SVG and attaches them in place via a detected local mermaid CLI or a self-hosted Kroki endpoint (never a third-party service by default, and no bundled Chromium); renders Markdown straight to storage XML rather than through ADF, carries <ac:inline-comment-marker> anchors across a page rewrite, refuses to publish when a reviewer's comment or a diagram would be orphaned, and verifies against Confluence's own dangling-comment list afterwards with a restore-version rollback. Credentials stored in ~/.acendas-atlassian/config.json with atomic-write + rolling backup.",
-      "version": "0.9.3",
+      "version": "0.9.4",
       "author": {
         "name": "Acendas",
         "email": "info@acendas.ca"
@@ -127,10 +127,10 @@
       "source": {
         "source": "github",
         "repo": "Acendas/android-debugger",
-        "ref": "v2.2.2"
+        "ref": "v2.2.3"
       },
       "description": "Android debugging plugin for Claude Code. Connects to debuggable APKs through ADB, JDI/JDWP, and a JVMTI agent, with MCP tools and workflow skills for breakpoints, stepping, logcat, heap inspection, method and allocation tracing, HotSwap, static class/call/package graphs, debug plans, flaky-test bisection, and guided patch/revert flows. Designed for agent-readable results and cross-platform use on macOS, Linux, and Windows.",
-      "version": "2.2.2",
+      "version": "2.2.3",
       "author": {
         "name": "Acendas",
         "email": "info@acendas.ca"

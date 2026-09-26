@@ -6,7 +6,7 @@
   },
   "metadata": {
     "description": "Developer productivity plugins by Acendas — agile project management, spec-driven development, sprint automation, comprehensive Atlassian Cloud integration, and AI-driven Android debugging for Claude Code.",
-    "version": "1.33.0"
+    "version": "1.34.0"
   },
   "plugins": [
     {
@@ -127,10 +127,10 @@
       "source": {
         "source": "github",
         "repo": "Acendas/android-debugger",
-        "ref": "v2.2.3"
+        "ref": "v2.3.0"
       },
-      "description": "Android debugging plugin for Claude Code. Connects to debuggable APKs through ADB, JDI/JDWP, and a JVMTI agent, with MCP tools and workflow skills for breakpoints, stepping, logcat, heap inspection, method and allocation tracing, HotSwap, static class/call/package graphs, debug plans, flaky-test bisection, and guided patch/revert flows. Designed for agent-readable results and cross-platform use on macOS, Linux, and Windows.",
-      "version": "2.2.3",
+      "description": "Android debugging for Claude Code: breakpoints, stepping, heap and trace inspection, HotSwap, static graphs, debug plans, and event-driven UI driving on live devices.",
+      "version": "2.3.0",
       "author": {
         "name": "Acendas",
         "email": "info@acendas.ca"
@@ -156,7 +156,9 @@
         "workflow",
         "ai-debugger",
         "static-analysis",
-        "call-graph"
+        "call-graph",
+        "ui-automation",
+        "ui-driving"
       ],
       "tags": [
         "android-debugger",
